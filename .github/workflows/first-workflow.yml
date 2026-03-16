@@ -7,12 +7,12 @@ on:
 
 jobs:
   first-job:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     
     steps:
        - name: Print Message
-       run: echo "Hello first git hub action "
+         run: echo "Hello first git hub action "
 
        - name: Print Date
-       run: date
+         run: date
   
